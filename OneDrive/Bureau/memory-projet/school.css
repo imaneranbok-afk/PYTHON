@@ -1,0 +1,684 @@
+
+body{
+    background-color: rgb(214, 219, 225);
+}
+.div1{
+    position: absolute;
+    width: 900px;
+    height: 400px;
+    background-color: lightcoral;
+    top:270px;
+    left:100px;
+    border-bottom: 40px solid white;
+}
+.div2{
+    position:absolute;
+    width:370px;
+    height:370px;
+    background-color:#994a4a;
+    clip-path:polygon(50% 0, 100% 50%, 0% 50%);
+    top:105px;
+    left:365px;
+    
+}
+.div3{
+    position:absolute;
+    width:370px;
+    height:180px;
+    background-color:#994a4a;
+    top:288px;
+    left:363px;
+}
+
+.div4{
+    position: absolute;
+    width: 155px;
+    height: 50px;
+    background-color:gray;
+    display: grid;
+    grid-template-columns: auto auto;
+    top:520px;
+    left:470px;
+
+}
+.di{
+    border: 3px solid white;
+}
+.div5{
+    position:absolute;
+    width:150px;
+    height:100px;
+    background-color:rgb(137, 132, 132);
+    top:569px;
+    left:470px;
+    border: 3px solid white ;
+}
+.div6{
+    position: absolute;
+    width: 260px;
+    height: 20px;
+    background-color: white;
+    top:179px;
+    left:320px;
+    transform: rotate(-45deg);
+    border: 2px solid black;;
+
+}
+.div7{
+    position: absolute;
+    width: 280px;
+    height: 20px;
+    background-color: white;
+    top:170px;
+    left:500px;
+    transform: rotate(45deg);
+    border: 2px solid black;
+}
+.div8{
+    position: absolute;
+    width: 900px;
+    height: 120px;
+    background-color: #994a4a;
+    top:135px;
+    left:100px;
+    border-bottom: 15px solid white;
+    z-index: -1;
+}
+.div10{
+    position: absolute;
+    width: 25px;
+    height: 150px;
+    top:520px;
+    left:380px;
+    background-color: white;
+    border: 2px solid black;
+}
+.div11{
+    position: absolute;
+    width: 25px;
+    height: 120px;
+    top:550px;
+    left:420px;
+    background-color: white;
+    border: 2px solid black;
+}
+    .div12{
+        position: absolute;
+        width: 25px;
+        height: 120px;
+        top:550px;
+        left:650px;
+        background-color: white;
+        border: 2px solid black;
+    }
+.div13{
+    position: absolute;
+    width: 25px;
+    height: 150px;
+    top:520px;
+    left:695px;
+    background-color: white;
+    border: 2px solid black;
+}
+.div14{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    top:502px;
+    left:373px;
+    background-color: white;
+    border: 2px solid black;
+}
+.div15{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    top:530px;
+    left:413px;
+    background-color: white;
+    border: 2px solid black;
+}
+.div16{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    top:530px;
+    left:642px;
+    background-color: white;
+    border: 2px solid black;
+}
+.div17{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    top:502px;
+    left:688px;
+    background-color: white;
+    border: 2px solid black;
+}
+.div18{
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    top:300px;
+    left:120px;
+    border-bottom: 10px solid white;
+    background-color: black;
+}
+.div188{
+    border:2px solid white;
+}
+.div19{
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    background-color:black;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    top:300px;
+    left:240px;
+    border-bottom: 10px solid white;
+}
+.div199{
+    border: 2px solid white;
+}
+.div20{
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    background-color:black;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    top:480px;
+    left:120px;
+    border-bottom: 10px solid white;
+}
+.div200{
+    border: 2px solid white;
+}
+.div21{
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    background-color:black;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    top:480px;
+    left:240px;
+    border-bottom: 10px solid white;
+}
+.div211{
+    border: 2px solid white;
+}
+.div22{
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    background-color:black;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    top:300px;
+    left:760px;
+    border-bottom: 10px solid white;
+}
+.div222{
+    border: 2px solid white;
+}
+.div23{
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    background-color:black;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    top:300px;
+    left:880px;
+    border-bottom: 10px solid white;
+}
+.div233{
+    border: 2px solid white;
+}
+.div24{
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    background-color:black;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    top:480px;
+    left:760px;
+    border-bottom: 10px solid white;
+}
+.div244{
+    border: 2px solid white;
+}
+.div25{
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    background-color:black;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    top:480px;
+    left:880px;
+    border-bottom: 10px solid white;
+}
+.div255{
+    border: 2px solid white;
+}
+.div26{
+    position: absolute;
+    width: 85px;
+    height: 130px;
+    background-color:black;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    top:260px;
+    left:420px;
+    border-bottom: 10px solid white;
+}
+.div266{
+    border: 2px solid white;
+}
+.div27{
+    position: absolute;
+    width: 85px;
+    height: 130px;
+    background-color:black;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    top:260px;
+    left:595px;
+    border-bottom: 10px solid white;
+}
+.div277{
+    border: 2px solid white;
+}
+.div28{
+    position: absolute;
+    width: 5px;
+    height: 100px;
+    background-color: rgb(74, 74, 74);
+    top:570px;
+    left:546px;
+}
+.div29{
+    position: absolute;
+    width: 5px;
+    height: 40px;
+    background-color: rgb(74, 74, 74);
+    top:590px;
+    left:535px;
+}
+.div30{
+    position: absolute;
+    width: 5px;
+    height: 40px;
+    background-color: rgb(74, 74, 74);
+    top:590px;
+    left:555px;
+}
+.div31{
+    position:absolute;
+    width: 365px;
+    height: 18px;
+    top:482px;
+    left: 365px;
+    background-color: white;
+    border: 2px solid black;
+}
+.div32{
+    position: absolute;
+    width: 375px;
+    height: 20px;
+    background-color: white;
+    border: 2px solid black;
+    top:460px;
+    left:360px;
+}
+.div33{
+    position: absolute;
+    top:400px;
+    left: 455px;
+    color:white;
+    font-weight: 400px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.div34{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    top:160px;
+    left:500px;
+    border: 5px solid black;
+
+}
+.div35{
+    position: absolute;
+    width: 5px;
+    height: 45px;
+    background-color: black;
+    top:190px;
+    left:565px;
+    transform: rotate(90deg);
+    border-radius: 100% 70%;
+}
+ .div36{
+    position: absolute;
+    width: 5px;
+    height: 50px;
+    background-color: black;
+    top:170px;
+    left:554px;
+    border-radius: 100% 70%;
+}
+.div37{
+    position: absolute;
+    width: 380px;
+    height: 10px;
+    background-color: white;
+    top:670px;
+    left:360px;
+    border: 2px solid black;
+}
+.div38{
+    position: absolute;
+    width: 340px;
+    height: 10px;
+    background-color: white;
+    top:680px;
+    left:380px;
+    border: 2px solid black;
+}
+.div39{
+    position: absolute;
+    width: 310px;
+    height: 10px;
+    background-color: white;
+    top:690px;
+    left:400px;
+    border: 2px solid black;
+}
+.div40{
+    position: absolute;
+    width: 260px;
+    height: 10px;
+    background-color: white;
+    top:700px;
+    left:430px;
+    border: 2px solid black;
+}
+.div41{
+    position: absolute;
+    width: 5px;
+    height: 160px;
+    background-color: black;
+    top:530px;
+    left:60px;
+}
+.div42{
+position: absolute;
+top:500px;
+width: 40px;
+height: 40px;
+left:43px;
+background-color: aliceblue;
+border-radius: 120% 100% 20% 20% /120% 100% 20% 20%;
+}
+.div43{
+    position: absolute;
+    width: 20px;
+    height: 4px;
+    background-color: black;
+    top:540px;
+    left:53px;
+}
+.div44{
+    position: absolute;
+    width: 17px;
+    height: 24px;
+    background-color: black;
+    top:690px;
+    left:54px;
+    border-radius: 10px 10px 0 0/ 10px ;
+}
+.div45{
+position: absolute;
+top:500px;
+width: 40px;
+height: 40px;
+left:1035px;
+background-color: aliceblue;
+border-radius: 120% 100% 20% 20% /120% 100% 20% 20%;
+}
+.div46{
+    position: absolute;
+    width: 20px;
+    height: 4px;
+    background-color: black;
+    left:1045px;
+    top:540px
+}
+.div47{
+    position: absolute;
+    width: 5px;
+    height: 160px;
+    background-color: black;
+    top:544px;
+    left:1053px;
+}
+.div48{
+    position: absolute;
+    width: 17px;
+    height: 24px;
+    background-color: black;
+    top:690px;
+    left:1047px;
+    border-radius: 10px 10px 0 0/ 10px ;
+}
+.div49{
+    position:absolute;
+    width: 100px;
+    height: 300px;
+    background-color: green;
+   border-radius: 0% 150% 0 150%;
+   transform: rotate(10deg);
+   top:390px;
+   left:1090px;
+   z-index: 11;
+}
+.div50{
+    position: absolute;
+    width: 7px;
+    height: 27px;
+    background-color: brown;
+    top:680px;
+    left:1150px;
+}
+.div51{
+    position: absolute;
+    width: 40px;
+    height: 5px;
+    background-color: brown;
+    top:705px;
+    left:1135px;
+    border-radius: 30px 30px 0 0;
+}
+.div52{
+    position:absolute;
+    width: 100px;
+    height: 240px;
+    background-color: green;
+   border-radius: 0% 150% 0 150%;
+   transform: rotate(10deg);
+   top:450px;
+   left:1190px;
+   z-index: 11;
+}
+.div53{
+    position: absolute;
+    width: 7px;
+    height: 27px;
+    background-color: brown;
+    top:685px;
+    left:1255px;
+}
+.div54{
+    position: absolute;
+    width: 40px;
+    height: 5px;
+    background-color: brown;
+    top:705px;
+    left:1240px;
+    border-radius: 30px 30px 0 0;
+}
+.div55{
+    position: absolute;
+    width: 1500px;
+    height: 25px;
+    background-color: green;
+    top:710px;
+   
+
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgrey;
+}
+
+.game-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.game-container {
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+}
+
+/* Style de base pour chaque carte */
+.card {
+    width: 100px;
+    height: 95px;
+    background-color:black;
+    border-radius: 5px;
+    margin: 10px;
+    position: absolute;
+    cursor: pointer;
+    font-size: 24px;
+    color: transparent;
+    background-image: url('CC.jpg');  /* Image de dos des cartes */
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    border: 10px solid white;
+}
+
+/* Effet lors du survol de la carte */
+.card:not(.open):hover {
+    background-image: url('CC.jpg');  /* Image de dos visible lorsqu'on survole */
+    background-size: cover;
+}
+
+/* Style lorsque la carte est ouverte */
+.card.open {
+    background-color: #fff;
+    transform: rotateY(180deg);  /* Pour simuler la carte qui se retourne */
+}
+
+/* Lorsque la carte est retournée, afficher l'image spécifique */
+.card.open::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+}
+
+/* Cartes avec image différente selon data-card */
+.card[data-card="image1"].open::after {
+    background-image: url('image1.jpg');  /* Remplacer par l'URL de ton image 1 */
+}
+
+.card[data-card="image2"].open::after {
+    background-image: url('image2.jpg');
+    /* Remplacer par l'URL de ton image 2 */
+}
+
+.card[data-card="image3"].open::after {
+    background-image: url('image3.jpg'); /* Remplacer par l'URL de ton image 3 */
+}
+
+.card[data-card="image4"].open::after {
+    background-image: url('image4.jpg');  /* Remplacer par l'URL de ton image 4 */
+}
+.card[data-card="image5"].open::after {
+    background-image: url('image5.jpg');  /* Remplacer par l'URL de ton image 4 */
+}
+.card[data-card="image6"].open::after {
+    background-image: url('image6.jpg');  /* Remplacer par l'URL de ton image 4 */
+}
+.card[data-card="image7"].open::after {
+    background-image: url('image7.jpg');  /* Remplacer par l'URL de ton image 4 */
+}
+.card[data-card="image8"].open::after {
+    background-image: url('image8.jpg');  /* Remplacer par l'URL de ton image 4 */
+}
+.card[data-card="image9"].open::after {
+    background-image: url('image9.jpg');  /* Remplacer par l'URL de ton image 4 */
+}
+.card[data-card="image10"].open::after {
+    background-image: url('image10.jpeg');
+      /* Remplacer par l'URL de ton image 4 */
+}
+.card.matched {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+/* Position des cartes */
+.card:nth-child(1) { top: 250px; left: 120px; }
+.card:nth-child(2) { top: 250px; left: 250px; }
+.card:nth-child(3) { top: 360px; left: 120px; }
+.card:nth-child(4) { top: 360px; left: 250px; }
+.card:nth-child(5) { top: 470px; left: 120px; }
+.card:nth-child(6) { top: 470px; left: 250px; }
+.card:nth-child(7) { top: 250px; left: 870px; }
+.card:nth-child(8) { top: 250px; left: 750px; }
+.card:nth-child(9) { top: 360px; left: 750px; }
+.card:nth-child(10) { top: 360px; left: 870px; }
+.card:nth-child(11) { top: 470px; left: 750px; }
+.card:nth-child(12) { top: 470px; left: 870px; }
+.card:nth-child(13) { width: 70px;height:70px; border:3px solid white;border-radius:0;top: 200px; left: 400px; }
+.card:nth-child(14) {width: 70px;height:70px; border:3px solid white;border-radius:0; top: 275px; left: 400px; }
+.card:nth-child(15) { width: 70px;height:70px; border:3px solid white;border-radius:0;top: 200px; left: 610px; }
+.card:nth-child(16) {width: 70px;height:70px; border:3px solid white;border-radius:0; top: 275px; left: 610px; }
+.card:nth-child(17) { width: 70px;height:70px; border:3px solid white;border-radius:0;top: 275px; left: 500px; }
+.card:nth-child(18) { width: 70px;height:70px; border:3px solid white;border-radius:0;top: 201px; left: 500px; }
+
