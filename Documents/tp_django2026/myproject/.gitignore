@@ -1,0 +1,40 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# Environment
+monenv/
+env/
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Projet files
+OnePage/
+*.docx
+*.pdf
+*.tmp
+~$*
+
+# Personal directories
+../../../OneDrive/
+../../../Desktop/
+../../../Downloads/
+../../../Documents/
